@@ -17,9 +17,8 @@ public class EmailService {
 		
 		boolean f = false;
 		
-//		String from = "techsoftindia2018@gmail.com";
-		String from = "zulqarnainbhurgri58@gmail.com";
-		String password = "salah72524";
+		String from = "techsoftindia2018@gmail.com";
+		String password = "11111111";
 		
 		String host ="smtp.gmail.com";
 		
@@ -37,7 +36,6 @@ public class EmailService {
 			protected javax.mail.PasswordAuthentication getPasswordAuthentication() {
 				// TODO Auto-generated method stub
 //				return new 	javax.mail.PasswordAuthentication("techsoftindia2018@gmail.com","");
-//				return new 	javax.mail.PasswordAuthentication("zulqarnainbhurgri58@gmail.com","salah72524");
 				return new 	javax.mail.PasswordAuthentication(from,password);
 			}
 			
